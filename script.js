@@ -14,7 +14,7 @@ task.forEach(function(item){
 
     createTask(item);
 
-}
+});
 btn.addEventListener("click", function () {
 
     if(int.value === ""){
